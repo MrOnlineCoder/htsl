@@ -1,0 +1,57 @@
+{
+  "document": {
+    "head": {
+      "title": "HTSL Test Page",
+      "meta": {
+        "charset": "utf-8",
+        "viewport": ""
+      },
+      "css": [
+        "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      ],
+      "scripts": [
+        ""
+      ]
+    },
+    "body": {
+      "tag": "body",
+      "children": {
+        "tag": "div",
+        "classes": ["container"],
+        "children": {
+          "tag": "div",
+          "id": "app",
+          "children": [
+            {
+              "tag": "input",
+              "attributes": {
+                "type": "number",
+                "value": "10",
+                "required": true
+              }
+            },
+            {
+              "tag": "h2",
+              "children": "Some fancy heading"
+            },
+            {
+              "tag": "hr"
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "img",
+              "attributes": {
+                "src": "http://placehold.it/100x100"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

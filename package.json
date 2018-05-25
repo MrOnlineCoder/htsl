@@ -1,0 +1,28 @@
+{
+  "name": "htsl",
+  "version": "0.0.1",
+  "description": "Hypertext Script Language - convert JSON to HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrOnlineCoder/htsl.git"
+  },
+  "keywords": [
+    "json",
+    "convert",
+    "html",
+    "data"
+  ],
+  "author": "MrOnlineCoder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrOnlineCoder/htsl/issues"
+  },
+  "homepage": "https://github.com/MrOnlineCoder/htsl#readme",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}
